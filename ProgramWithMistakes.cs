@@ -12,7 +12,7 @@ public class Program
         rational1.WriteRational();
         rational2.WriteRational();
 
-        rational2.Negate(); // This will cause an error because Negate is defined as static
+        rational2.Negate(); 
         Console.Write("After negation: ");
         rational2.WriteRational();
 
@@ -26,7 +26,7 @@ public class Program
         Console.Write("After reduction: ");
         reduced.WriteRational();
 
-        Rational sum = Rational.Add(rational2, rational3); // This will cause an error because Add is defined as an instance method
+        Rational sum = Rational.Add(rational2, rational3); 
         Console.Write("Sum of rational2 and rational3: ");
         sum.WriteRational();
     }
